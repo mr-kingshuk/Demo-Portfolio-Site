@@ -1,0 +1,66 @@
+@media screen and (min-width: 450px) and (max-width: 650px) {
+  .languages .information {
+    width: 38%;
+  }
+  .proffesional-skills .information {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section1,
+  .section2 {
+    padding: 1rem 5%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+  .html {
+    font-size: 11px;
+  }
+  .outer {
+    display: flex;
+  }
+
+  .section1 {
+    width: 270px;
+    padding: 1rem 3%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .section2 {
+    width: 58%;
+    padding: 1rem 3%;
+  }
+  .outer-section1 {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .html {
+    font-size: 12px;
+  }
+  .outer {
+    display: flex;
+  }
+  .section1 {
+    width: 275px;
+    padding: 1rem 4%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .section2 {
+    width: 700px;
+    padding: 1rem 3%;
+  }
+  .outer-section1 {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .outer-section1 {
+    width: 30vw;
+  }
+}

@@ -1,0 +1,9 @@
+.summary h1::after {
+  content: "\f15c";
+}
+
+.summary .information,
+.work-expereince .information {
+  width: 93%;
+  margin: auto;
+}

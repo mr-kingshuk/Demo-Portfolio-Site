@@ -1,0 +1,37 @@
+.hobbies h1::after {
+  content: "\f206";
+}
+
+.hobbies h2 {
+  font-size: 1.7rem;
+}
+
+.hobbies .information {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hobbies .icons::before {
+  font-size: 1.8em;
+  color: var(--colour);
+}
+
+.travel::before {
+  content: "\f5e4";
+}
+
+.basket-ball::before {
+  content: "\f434";
+}
+
+.reading::before {
+  content: "\f5da";
+}
+
+.riding::before {
+  content: "\f21c";
+}

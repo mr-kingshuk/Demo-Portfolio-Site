@@ -1,0 +1,41 @@
+.proffesional-skills h1::after {
+  content: "\f080";
+  font-size: 400;
+}
+
+.prof {
+  width: 80%;
+  margin: auto;
+}
+
+.topic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proffesional-skills h2 {
+  padding-bottom: 0.7rem;
+}
+
+.full-length {
+  background-color: hsl(0deg 0% 30% / 67%);
+  height: 0.8rem;
+}
+
+.given-length {
+  background-color: var(--colour);
+  height: 1.6rem;
+  transform: translateY(-1.2rem);
+}
+
+.p1 {
+  width: 90%;
+}
+
+.p2 {
+  width: 70%;
+}
+
+.p3 {
+  width: 100%;
+}

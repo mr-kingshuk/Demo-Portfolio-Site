@@ -1,0 +1,73 @@
+.my-time h1::after {
+  content: "\f200";
+}
+
+.pi-chart-index {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pie-chart {
+  margin: 2rem auto;
+  display: grid;
+  place-items: center;
+  background: conic-gradient(
+    hsl(var(--hue), 100%, 45%) 0,
+    hsl(var(--hue), 100%, 45%) 35%,
+    hsl(var(--hue), 100%, 55%) 0,
+    hsl(var(--hue), 100%, 55%) 50%,
+    hsl(var(--hue), 100%, 65%) 0,
+    hsl(var(--hue), 100%, 65%) 70%,
+    hsl(var(--hue), 100%, 75%) 0,
+    hsl(var(--hue), 100%, 75%) 84%,
+    hsl(var(--hue), 100%, 85%) 0,
+    hsl(var(--hue), 100%, 85%) 94%,
+    hsl(var(--hue), 100%, 95%) 0,
+    hsl(var(--hue), 100%, 95%) 100%
+  );
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+.inner {
+  display: grid;
+  place-items: center;
+  background: white;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+.pi-chart-index .information {
+  padding: 0 10%;
+}
+.option {
+  display: flex;
+  gap: 10px;
+  height: 3rem;
+}
+.colour-box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid var(--colour);
+}
+.c1 {
+  background: hsl(var(--hue), 100%, 45%);
+}
+.c2 {
+  background: hsl(var(--hue), 100%, 55%);
+}
+.c3 {
+  background: hsl(var(--hue), 100%, 65%);
+}
+.c4 {
+  background: hsl(var(--hue), 100%, 75%);
+}
+.c5 {
+  background: hsl(var(--hue), 100%, 85%);
+}
+.c6 {
+  background: hsl(var(--hue), 100%, 95%);
+}

@@ -1,0 +1,44 @@
+.work-expereince h1::after {
+  content: "\f1ad";
+}
+
+.education h1::after {
+  content: "\f19d";
+}
+
+.firstline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-expereince .information > * {
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  font-size: 1.5rem;
+}
+
+.nextline {
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  gap: 10px;
+}
+
+.location::before {
+  content: "\f3c5";
+  font-size: 1em;
+  padding: 0 4px;
+}
+
+.intro-para,
+.points {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.points::before {
+  content: "\f666";
+  color: var(--colour);
+}

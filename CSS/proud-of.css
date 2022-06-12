@@ -1,0 +1,30 @@
+.most-proud-of h1::after {
+  content: "\f004";
+}
+
+.skills {
+  margin: 0.8rem 0;
+  gap: 5px;
+}
+
+.info {
+  font-size: 1.4rem;
+  padding-top: 0.2rem;
+}
+
+.skills::before {
+  font-size: 2rem;
+  align-self: flex-start;
+}
+
+.op1::before {
+  content: "\f091";
+}
+
+.op2::before {
+  content: "\f518";
+}
+
+.op3::before {
+  content: "\f0c0";
+}

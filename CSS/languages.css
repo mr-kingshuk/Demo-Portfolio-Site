@@ -1,0 +1,23 @@
+.languages h1::after {
+  content: "\f27a";
+}
+
+.languages .information {
+  width: 67%;
+  margin: auto;
+}
+
+.single-language {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5em;
+}
+
+.single-language .fas {
+  color: white;
+  font-size: 1em;
+}
+
+.single-language .check {
+  color: var(--colour);
+}

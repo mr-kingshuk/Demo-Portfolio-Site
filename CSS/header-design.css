@@ -1,0 +1,66 @@
+.pic-name-designation-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid var(--colour);
+  height: 25ch;
+}
+
+.name {
+  font-size: 2rem;
+  color: var(--colour);
+  padding: 3px 0;
+}
+
+.designation {
+  font-size: 1.75rem;
+  color: rgb(56, 56, 56);
+}
+
+.pic-name-designation-details .information {
+  padding: 1.5rem 0;
+}
+
+.pic-name-designation-details .information div {
+  padding: 0.4rem 0;
+}
+
+.pic-name-designation-details .information div::before {
+  color: var(--colour);
+}
+
+.email::before {
+  content: "\f658";
+}
+
+.phone::before {
+  content: "\f879";
+}
+
+.residence::before {
+  content: "\f3c5";
+}
+
+.country::before {
+  content: "\f57d";
+}
+
+.dob::before {
+  content: "\f784";
+}
+
+.relationship-status::before {
+  content: "\f500";
+}
